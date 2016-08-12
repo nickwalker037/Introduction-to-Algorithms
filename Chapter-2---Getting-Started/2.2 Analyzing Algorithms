@@ -1,0 +1,19 @@
+Analyzing an Algorithm - has come to mean predicting the resources that the algorithm requires
+    - ex. memory, communication bandwidth, computer hardware, and especially computational time
+    - generally, by analyzing several candidate algorithms for a problem, we can identify a most efficient one
+    - BUT...
+        - before you can analyze an algorithm, you must have a model of the implementation technology that you use, including a model for the resources of that technology and their costs
+            - this book assumes a generic one-processor Random-Access-Machine (RAM) model of computation
+                    - in this model, instructions are executed one after another, with no concurrent operations
+                    - the RAM model contains instructions commonly found in real computers:
+                        - arithmetic (add, subtract, …. )
+                        - data movement (load, store, copy)
+                        - control (conditional and unconditional branch, subroutine call and return)
+                            - each such instruction takes a constant amount of time
+                            - we do not model caches or virtual memory
+                    - analyzing even a simple algorithm in the RAM model can be a challenge
+                        - the mathematical tools required may include combinatorics, probability theory, algebraic dexterity, and the ability to identify the most significant terms in a formula
+                        
+Time
+    - we can sometimes use a randomized algorithm to allow a probabilistic analysis and yield an expected running time, rather than only looking at the worst-case running time
+    - it is the rate (order) of growth of the running time that really interests us
