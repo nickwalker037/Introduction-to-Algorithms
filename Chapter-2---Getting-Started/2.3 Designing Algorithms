@@ -1,0 +1,10 @@
+2.3 Designing Algorithms
+
+we can choose from a wide range of algorithm design techniques
+  - Incremental Approach
+      - is what we used in the insertion sort algorithm
+  - Recursive  
+      - to solve a given problem, they call themselves recursively one or more times to deal with closely related sub-problems
+              - these algorithms typically follow a divide-and-conquer approach:
+                  - they break the problem into several subproblems that are similar to the original problem but smaller in size, solve the problems recursively, and then combine these results to create a solution to the original problem
+              - see other note page for more detailed info on divide-and-conquer approach
