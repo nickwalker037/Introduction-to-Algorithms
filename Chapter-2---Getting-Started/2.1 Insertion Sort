@@ -7,11 +7,24 @@
 Keys  - are the numbers we wish to sort
 
 
-- for j = 2 to A.length
-    - key = A[ j ] 
-    - // insert A[ j ] into the sorted sequence A[1, …., j-1]
-    - i = j - 1
-    - while i = 0 and A[ i ] > key
+for j = 2 to A.length
+    key = A[ j ] 
+    // insert A[ j ] into the sorted sequence A[1, …., j-1]
+    i = j - 1
+    while i = 0 and A[ i ] > key
         - A[ 1 + i ] = A[ i ]
         - i = i - 1
-    - A[ i + 1 ] = key
+    A[ i + 1 ] = key
+
+
+Loop Invariant
+- we use them to help us understand why an algorithm is correct
+- must show 3 things about them:
+    - (1.) Initialization 
+        - it is true prior to the first iteration of the loop
+                - Ex. 
+    - (2.) Maintenance
+        - if it is true before an iteration of the loop, it remains true before the next iteration
+    - (3.) Termination
+        - when the loop terminates, the invariant gives us a useful property that helps show that the algorithm is correct
+- this is similar to a mathematical induction, where to prove that a property holds, you prove a base case and an inductive step
