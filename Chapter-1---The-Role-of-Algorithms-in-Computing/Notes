@@ -1,0 +1,44 @@
+The Role of Algorithms in Computing
+Ch. 1 
+
+
+
+Algorithm 
+- Any well-defined computational procedure that takes some value, or set of vales, as input and produces some value, or set of values, as output
+    - is thus a sequence of computational steps that transform the input into the output
+
+Instance 
+- refers to the input in the problem
+
+
+What kind of problems are solved by algorithms?
+- Human Genome Project
+    - identifying all 100,000 genes in human DNA
+- Navigation
+- Search Engines
+- Linear programming solves the following problems:
+    - allocating resources most effectively
+    - maximizing profit
+    - effective customer service
+
+** Not every problem solved by algorithms has an easily identified set of candidate solutions **
+** Although 10 million numbers might seem like a lot, if the numbers are eight-byte integers, then the input occupies about 80 megabytes**
+** Having a solid base of algorithmic knowledge and technique is one characteristic that separates the truly skilled programmers from the novices**
+
+Data Structure
+    - is a way to store and organize data in order to facilitate access and modifications
+NP-Complete
+    - means the problem currently isn’t solvable
+Parallelism
+    - is the idea of using multicore computers to make several sequential computers on a single chip
+    - Ch. 27 - presents a model for “multithreaded” algorithms, which take advantage of multiple cores
+
+
+Pseudocode
+    - is not typically concerned with issues of software engineering
+        - issues of data abstraction, modularity, and error handling are often ignored to convey the essence of the algorithm more concisely
+
+
+
+Note:
+- Python lacks repeat-until loops, and its for loops operate a little differently from the for loops in this book
