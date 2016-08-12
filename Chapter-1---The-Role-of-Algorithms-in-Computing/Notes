@@ -4,22 +4,22 @@ Ch. 1
 
 
 Algorithm 
-- Any well-defined computational procedure that takes some value, or set of vales, as input and produces some value, or set of values, as output
-    - is thus a sequence of computational steps that transform the input into the output
+    - Any well-defined computational procedure that takes some value, or set of vales, as input and produces some value, or set of values, as output
+        - is thus a sequence of computational steps that transform the input into the output
 
 Instance 
-- refers to the input in the problem
+    - refers to the input in the problem
 
 
 What kind of problems are solved by algorithms?
-- Human Genome Project
-    - identifying all 100,000 genes in human DNA
-- Navigation
-- Search Engines
-- Linear programming solves the following problems:
-    - allocating resources most effectively
-    - maximizing profit
-    - effective customer service
+    - Human Genome Project
+        - identifying all 100,000 genes in human DNA
+    - Navigation
+    - Search Engines
+    - Linear programming solves the following problems:
+        - allocating resources most effectively
+        - maximizing profit
+        - effective customer service
 
 ** Not every problem solved by algorithms has an easily identified set of candidate solutions **
 ** Although 10 million numbers might seem like a lot, if the numbers are eight-byte integers, then the input occupies about 80 megabytes**
