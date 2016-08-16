@@ -17,3 +17,7 @@ Think of it as we’re releasing a ball at some random point of the graph of fun
     - at each step, you use the derivative of f to decide which direction to move in
     - minimizing f using gradient descent may yield a different local minimum depending on the start position
 
+Common Uses:
+- Minimizing the Mean Squared Error (MSE) of a linear function
+    - where the “error” or “residual” is the difference between the “prediction” for the i’th data point and the “correct answer”
+    - minimizing the MSE is equivalent to the problem of maximizing (over linear functions) the likelihood of the data
