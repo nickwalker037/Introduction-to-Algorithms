@@ -12,3 +12,8 @@ Unconstrained Optimization:
 - there are various ways to transform constrained problems into unconstrained ones
     - Lagrangian relaxation
     - Barrier functions
+
+Think of it as we’re releasing a ball at some random point of the graph of function f, and the algorithm terminates at the final resting point of this ball (after gravity has done its work) (and you’re looking for a min value)
+    - at each step, you use the derivative of f to decide which direction to move in
+    - minimizing f using gradient descent may yield a different local minimum depending on the start position
+
