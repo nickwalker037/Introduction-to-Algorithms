@@ -1,0 +1,14 @@
+Model-fitting often reduces to optimization
+- Ex. maximizing the likelihood of observed data over a family of generative models
+
+What problem is gradient descent trying to solve?
+- Unconstrained Optimization
+    - for a given real-valued function f: Rn —> R defined on an n-dimensional Euclidean space, the goal is min f(x)
+- but there are ways to extend gradient descent to handle constraints 
+    - like projecting back to the feasible region
+
+Unconstrained Optimization: 
+- there are no constraints, and the only consideration is the objective function
+- there are various ways to transform constrained problems into unconstrained ones
+    - Lagrangian relaxation
+    - Barrier functions
