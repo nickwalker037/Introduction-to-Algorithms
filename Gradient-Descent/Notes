@@ -21,3 +21,10 @@ Common Uses:
 - Minimizing the Mean Squared Error (MSE) of a linear function
     - where the “error” or “residual” is the difference between the “prediction” for the i’th data point and the “correct answer”
     - minimizing the MSE is equivalent to the problem of maximizing (over linear functions) the likelihood of the data
+
+Speeding up the process
+- In many machine learning applications, one wants to use as much data as possible - as m grows larger, it’s possible to get more and more accuracy and/or use richer and richer models
+- (1.) computing the gradient in every single iteration of gradient descent is just a sum of terms, one per data point, enabling easy parallelization
+        - The data set can be spread over however many machines or cores are available, the summands can be computed independently, and then the results are aggregated together
+- (2.) Stochastic Gradient Descent
+        - ?? —> you start at diff random values and keep going until you run enough trials where the minimum is repeated (not improved upon) so you know it’s the lowest value in the set
